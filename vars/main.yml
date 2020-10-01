@@ -1,0 +1,14 @@
+---
+# vars file for ansible-test
+
+packages:
+  Ubuntu:
+    - "python-apt"
+    - "docker.io"
+    - "python-dev"
+    - "python-pip"
+    - "libssl-dev"
+    - "libffi-dev"
+
+packages_pip:
+  - docker-py
